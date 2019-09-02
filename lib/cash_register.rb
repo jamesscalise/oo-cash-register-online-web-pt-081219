@@ -18,7 +18,9 @@ class CashRegister
   def apply_discount
     if discount == 0
       return "There is no discount to apply."
-    end
+    else
+      
+    
   end
   
   def void_last_transaction
