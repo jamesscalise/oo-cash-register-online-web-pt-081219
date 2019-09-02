@@ -19,7 +19,7 @@ class CashRegister
     if discount == 0
       return "There is no discount to apply."
     else  
-      @total = (@total.to_f * ((100-@discount)/100)).to_i
+      @total = (@total.to_f * ((100-@discount)/100)).to_int
     end
     
   end
